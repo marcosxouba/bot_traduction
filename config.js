@@ -4,26 +4,26 @@ const ownerNumber = ["+34671350075@s.whatsapp.net"]
 const OriginalOwner = '+34671350075' 
 // mude para seu numero
 
-const gimagenotregister = true
+const gimagenotregister = false
 // quando não há comando registrado o bot procura no google image
 
-const sgooglenotregister = true
+const sgooglenotregister = false
 // quando não há comando registrado o bot procura uma pesquisa no google
 
-const msgwelcomeimg = (numero, groupname) => {
-    return `Se bienvenido ${numero}\n\n ${prefix}`
+const msgwelcomeimg = () => {
+    return ``
 }
 //Welcome activado
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const byemsgimg = (numero, groupname) => {
-    return `Adiós ${numero}`
+const byemsgimg = () => {
+    return ``
 }
 //Texto de despedidas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const menumsgimg = (numero, groupname) => {
-    return `Bienvenido ${numero}\n\nAal menú del bot`
+    return `Bienvenido ${numero}\n\nal menú del bot`
 }
 //Texto no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
@@ -134,7 +134,7 @@ const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n' 
 + 'FN:Meu criador^~^\n' 
 + 'ORG:Ian;\n' 
-+ 'TEL;type=CELL;type=VOICE;waid=671350075:+34 671 35 00 75\n' 
++ 'TEL;type=CELL;type=VOICE;waid=+34671350075:+34671350075\n' 
 + 'END:VCARD'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde
