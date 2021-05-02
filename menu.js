@@ -319,7 +319,7 @@ return `┏🔥ANONYMOUS DARK LEGION🔥┓
 ➻❥ *${p}marcar*
 ➻❥ *${p}marcar2*
 ➻❥ *${p}marcar3*
-➻❥ *${p}hidemarcar* ❮ᵗˣᵗ❯
+➻❥ *${p}announce* ❮ᵗˣᵗ❯
 ࿇ ════━━━━━✥◈✥━━━━━════ ࿇
 ┈━═☆༻🕵️STALKER🕵️༺☆═━┈
 ࿇ ════━━━━━✥◈✥━━━━━════ ࿇
